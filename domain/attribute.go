@@ -1,7 +1,6 @@
 package domain
 
-type Order struct {
+type Attribute struct {
 	Id   int    `json: id xml: "id"`
 	Name string `json: name xml: "name"`
-	City string `json: city xml:"city"`
 }

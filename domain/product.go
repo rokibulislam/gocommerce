@@ -1,6 +1,8 @@
 package domain
 
 type Product struct {
-	Name string `json: full_name xml: "name"`
-	City string `json: city xml:"city"`
+	Id          int    `json: id xml: "id"`
+	Title       string `json: title xml: "title"`
+	Description string `json: description xml:"description"`
+	Price       string `json: price xml:"price"`
 }

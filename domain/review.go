@@ -1,6 +1,7 @@
 package domain
 
 type Review struct {
-	Name string `json: full_name xml: "name"`
-	City string `json: city xml:"city"`
+	Id      int    `json: id xml: "id"`
+	Comment string `json: comment xml: "comment"`
+	Rating  string `json: rating xml:"rating"`
 }

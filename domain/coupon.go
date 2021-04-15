@@ -1,6 +1,7 @@
 package domain
 
 type Coupon struct {
-	Name string `json: full_name xml: "name"`
-	City string `json: city xml:"city"`
+	Id     int    `json: id xml: "id"`
+	Code   string `json: code xml: "code"`
+	Amount string `json: amount xml:"amount"`
 }
